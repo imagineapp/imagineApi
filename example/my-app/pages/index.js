@@ -2,7 +2,7 @@ import { createImage, getJobById, getJobs, init } from "@8glabs/imagine-api";
 import { useState } from "react";
 
 export default function ApiTest() {
-  init("test", "test");
+  init("app_id", "app_key");
 
   const [prompt, setPromt] = useState("");
   const [promptJobId, setPromptJobId] = useState("");
