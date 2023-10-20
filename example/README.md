@@ -1,6 +1,7 @@
 ## Getting Started:
 
 Replace your app id and app key here:
+https://github.com/8glabs/imagineApi/blob/main/example/my-app/pages/index.js#L5
 
 ```sh
 init("app_id", "app_key");
