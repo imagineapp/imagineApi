@@ -56,6 +56,9 @@ export default function ApiTest() {
           {jobResult && (
             <div>
               <div>status: {jobResult.status}</div>
+              {jobResult.status === "JOB_STATUS_DONE" && (
+                <img src={jobResult.medias[0].url} alt="" />
+              )}
             </div>
           )}
         </div>
